@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="temperature.css">
+    </head>
+<body>
+
+<h1>Celsius To Farenheit Converter</h1>
+<p1>Temperature Into Farenheit : </p1>
+<p id="demo"></p>
+
+<script>
+let temperature = prompt("Enter a Temprature to Calculate");
+
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius(temperature);
+document.getElementById("demo").innerHTML = value;
+
+</script>
+<hr>
+<h2>What Is Celsius??</h2>
+<p4>Celsius is a scale (sometimes called Centigrade) that is used in many countries as a unit of measurement for temperature. The Celsius scale was created by a Swedish astronomer called Anders Celsius. On the scale, 0 degrees (°) Celsius is the melting point of pure water at sea level, at normal pressure.</p4>
+<hr>
+<h2>What Is Fahrenheit??</h2>
+<p5>
+  Fahrenheit is a scale for measuring temperature, in which water freezes at 32 degrees and boils at 212 degrees. It is represented by the symbol ° F. By mid-morning, the temperature was already above 100 degrees Fahrenheit.
+</p5>
+<hr>
+<p2>Celsius To Farenheit Conversion:</p2>
+<p>°F equals °C multiplied by 9/5, plus 32<BR>
+
+  °F = °C * 9/5 + 32<br>
+  
+ <h2>Formula to convert Celsius to Fahrenheit F = C x 9/5 + 32</h2>
+</p>
+<hr>
+<h3>How To Convert Celsius To Farenheit</h3>
+<p3>
+<ol>
+  <li>Multiply degrees Celsius by 1.8 (or 9/5)</li>
+  <li>Add 32 to the product from step 1</li>
+</ol>
+<h2>For example,</h2> to convert 21.5 degrees Celsius (centigrade) to degrees Fahrenheit, we plug our numbers into the formula as shown below:<br>
+
+°F = (°C × (9/5)) + 325<br>
+
+°F = (21.5 × (9/5)) + 32<br>
+
+°F = (21.5 × 1.8) + 32<br>
+
+°F = 38.7 + 32<br>
+
+°F = 70.7
+<br>
+21.5 degrees Celsius is equal to 70.7 degrees Fahrenheit.<br>
+
+This calculator will show the steps to solve the °C to °F formula so you know how make the conversion yourself.
+</p3>
+
+</body>
+</html>
